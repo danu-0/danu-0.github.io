@@ -7,6 +7,10 @@ body{
     padding: 0px;
     margin: 0px;
 }
+header{
+    padding: 0;
+    margin: 0;
+}
 .navbar{
     margin: 0;
     padding: 0;
@@ -40,9 +44,8 @@ padding-bottom: 5px;
 }
 .menu li{
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-family:  'Libre Baskerville', serif;
-
     font-weight: bold;
 }
 .menu a{
@@ -59,7 +62,7 @@ color: rgb(42, 2, 65);
 }
 .topik1{
 
-    height: 500px;
+    height: 600px;
     margin: 0;
     padding: 0;
     display:flex;
@@ -76,7 +79,7 @@ color: rgb(42, 2, 65);
 }
 .topik1 h3{
     color: black;
-    font-size: 23px;
+    font-size: 26px;
     font-family:  'Libre Baskerville', serif;
     font-weight: 100px;
     margin: 0;
@@ -94,8 +97,8 @@ color: rgb(42, 2, 65);
 }
 .topik1 p{
     color:  black;
-    font-size: 18px;
-    font-family: cursive;
+    font-size: 20px;
+    font-family: 'Playpen Sans', cursive;
     padding-right: 34px;
     text-align: justify;
 }
@@ -118,7 +121,7 @@ color: rgb(42, 2, 65);
 
 .topik2{
     background-color: white;
-    height: 530px;
+    height: 700px;
     display: flex;
     padding-top: 30px;
     justify-content: space-between;
@@ -131,19 +134,15 @@ background-color:  rgb(36, 19, 46);
 height: auto;
 width: 30%;
 margin-right: 10px;
-border-radius: 20PX;
+border-radius:0 10px 10px 0 ;
 
 }
 .topik22{
     background-color:  rgb(157, 55, 216);
     height: auto;
     width: 70%;
-    padding-inline: 23px;
-    padding: 10px;
-    
-    
-   
-    }
+    padding: 30px;
+}
 .topik22 h2{
     color: black;
     font-size: 37px;
@@ -156,9 +155,10 @@ border-radius: 20PX;
     font-size: 23px;
 }
 .topik22 p{
-    font-family: cursive;
-    font-size: 18px;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 20px;
     text-align: justify;
+    padding-inline: 30px;
 }
 
 .profile{
@@ -171,7 +171,7 @@ padding-bottom: 10px;
 }
  .topik3{
         background-color: white;
-        height: 500px;
+        height: 550px;
         margin: 0 ;
         padding: 0;
         display: flex;
@@ -179,11 +179,9 @@ padding-bottom: 10px;
         justify-content: center;
         margin-bottom: 80px;
         
-        
-        
 }
    
-    .topik31{
+.topik31{
     border: 3px solid  rgb(157, 55, 216);
     height:100%;
     width: 80%;
@@ -191,8 +189,8 @@ padding-bottom: 10px;
     padding: 30px;
     margin: 0;
     margin-top: 20px;
-    }
-    .pp{
+}
+.pp{
         height: 150px;
         width: 150px;
         background-image: url('img/profile2.png');
@@ -204,12 +202,15 @@ padding-bottom: 10px;
         margin-top: 18px;
        
     }
-    .biodata{
+.biodata{
         text-align: left;
         margin: 0 auto;
         font-size: 18px;
         color:  rgb(157, 55, 216);
         
+    }
+.biodata tr{
+        font-size: 20px;
     }
 #buton{
     border-radius: 33px;
@@ -230,10 +231,11 @@ padding-bottom: 10px;
     border: 2px solid rgb(157, 55, 216);
 }
 #buton h3{
-    font-family: cursive;
+    font-family: 'Playpen Sans', cursive;
     font-size: 23px;
     margin: 0;
     padding: 10px;
+    font-weight: bold;
 }
 .contak{
     color: black;
@@ -241,8 +243,52 @@ padding-bottom: 10px;
     font-family: 'Libre Baskerville', serif; 
     text-align: center;
     margin-top: 30px;
-
 }
+
+.demo {
+    color: black;
+    font-size: 37px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gameplay {
+    position: relative;
+    width: 80%; 
+    margin: auto;
+    
+    margin-bottom: 67px;
+}
+.gameplay p{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 20px;
+    text-align: justify;
+    padding-inline: 30px;
+}
+
+.gameplay .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    box-shadow: 20px -20px 0px rgb(157, 55, 216);
+}
+
+.gameplay iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.des{
+    height: 200px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .topik4{
     height: 500px;
     width: auto;
@@ -254,8 +300,8 @@ padding-bottom: 10px;
 }
 .topik4 p{
     text-align: center;
-    font-size: 18px;
-    font-family: cursive;
+    font-size: 23px;
+    font-family:'Playpen Sans', cursive;
 }
 .sosmed {
     display: flex;
