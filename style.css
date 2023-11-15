@@ -87,13 +87,14 @@ color: rgb(42, 2, 65);
     margin-bottom: 30px;
 }
 .ungu{
-    color:  rgb(157, 55, 216);
+    color:  rgb(89, 37, 119);
     font-weight: 150px;
 }
 .jp{
     font-family: 'Noto Sans JP', sans-serif;
     font-style: italic;
     font-weight: 100px;
+    color: rgb(207, 126, 5);
 }
 .topik1 p{
     color:  black;
@@ -130,7 +131,6 @@ color: rgb(42, 2, 65);
 background-image: url('img/about.jpg');
 background-size: cover;
 background-position: center;
-background-color:  rgb(36, 19, 46);
 height: auto;
 width: 30%;
 margin-right: 10px;
@@ -193,10 +193,9 @@ padding-bottom: 10px;
 .pp{
         height: 150px;
         width: 150px;
-        background-image: url('img/profile2.png');
+        background-image: url('img/profil.png');
         background-size: cover;
         background-position: center;
-        background-color:  rgb(157, 55, 216);
         border-radius: 100px;
         margin: 0 auto;  
         margin-top: 18px;
@@ -237,6 +236,66 @@ padding-bottom: 10px;
     padding: 10px;
     font-weight: bold;
 }
+
+.galery{
+    color: black;
+font-size: 37px;
+font-family: 'Libre Baskerville', serif;
+text-align: center;
+}
+.animation{
+    background-color: white;
+    height: 700px;
+    margin: 0;
+    display: flex;
+    padding-top: 23px;
+    justify-content: space-between;
+}
+.animation1{
+background-image: url('img/raiden3.jpg');
+background-size: cover;
+background-position: center;
+height: auto;
+width: 30%;
+margin-right: 10px;
+border-radius:0 10px 10px 0 ;
+
+}
+.animation2{
+    background-color:  rgb(36, 19, 46);
+    height: auto;
+    width: 70%;
+    padding: 30px;
+}
+.animation2 h2{
+    color: rgb(207, 126, 5);
+    font-size: 23px;
+    font-family: 'Libre Baskerville', serif; 
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+.animation2 h3{
+    color: rgb(207, 126, 5);
+    font-family: 'Playpen Sans', cursive;
+    font-size: 17px;
+    text-align: center;
+}
+.foto1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.foto2 {
+    display: flex;
+    justify-content: space-between;
+}
+.foto1 img,
+.foto2 img {
+    width: 220px; 
+    height: 140px;
+}
+
 .contak{
     color: black;
     font-size: 37px;
@@ -257,8 +316,8 @@ padding-bottom: 10px;
     position: relative;
     width: 80%; 
     margin: auto;
-    
-    margin-bottom: 67px;
+    margin-bottom: 26px;
+    padding: 0;
 }
 .gameplay p{
     font-family: 'Playpen Sans', cursive;
@@ -314,6 +373,7 @@ padding-bottom: 10px;
     text-decoration: none;
     color: black;
     font-size: 23px;
+    font-family: 'Playpen Sans', cursive;
 }
 .sosmed a:hover{
     color: white;
